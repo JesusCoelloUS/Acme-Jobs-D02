@@ -28,7 +28,20 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.favourite-link = Favourite link
+master.menu.anonymous.favourite-link.jescoevas = Favourite link of Jesús
+master.menu.anonymous.favourite-link.frankrogo = Favourite link of frankrogo
+master.menu.anonymous.favourite-link.AleVazEnc = Favourite link of AleVazEnc
+master.menu.anonymous.favourite-link.serperrui1 = Favourite link of serperrui1
+
+master.menu.anonymous.shout.list = List shouts
+master.menu.anonymous.shout.create = Create shout
+master.menu.anonymous.bulletin.list = List bulletins
+master.menu.anonymous.bulletin.create = New bulletin
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.announcements = List announcements
 
 # master.menu.administrator ###################################################
 
