@@ -78,4 +78,149 @@
 		<property name="text" value="This is a very old announcement"/>
 	</bean>
 
+	<!-- Requests -->
+	
+	<bean id="request01" class="acme.entities.requests.Request">
+		<property name="ticker" value="RkMMq-39102"/>
+		<property name="title" value="This is the title of the request"/>
+		<property name="creationMoment" value="2019/10/01 12:00"/>
+		<property name="deadline" value="2019/11/30 23:59"/>
+		<property name="text" value="Here we are describing this request"/>
+		<property name="reward" value="200"/>
+	</bean>
+	
+	<bean id="request02" class="acme.entities.requests.Request">
+		<property name="ticker" value="Rpomr-00912"/>
+		<property name="title" value="This is the title of the request"/>
+		<property name="creationMoment" value="2019/11/01 12:00"/>
+		<property name="deadline" value="2019/12/01 11:00"/>
+		<property name="text" value="Here we are describing this request"/>
+		<property name="reward" value="100"/>
+	</bean>
+	
+	<bean id="request03" class="acme.entities.requests.Request">
+		<property name="ticker" value="Rertc-45678"/>
+		<property name="title" value="This is the title of the request"/>
+		<property name="creationMoment" value="2019/10/12 16:00"/>
+		<property name="deadline" value="2019/12/11 23:59"/>
+		<property name="text" value="Here we are describing this request"/>
+		<property name="reward" value="500"/>
+	</bean>
+	
+	<!-- Offers -->
+	
+	<bean id="offer01" class="acme.entities.offers.Offer">
+		<property name="ticker" value="ODFCG-12345"/>
+		<property name="title" value="This is the title of the offer"/>
+		<property name="creationMoment" value="2019/10/03 12:00"/>
+		<property name="deadline" value="2019/11/13 23:59"/>
+		<property name="text" value="Here we are describing this offer"/>
+		<property name="money" value="150"/>
+	</bean>
+	
+	<bean id="offer02" class="acme.entities.offers.Offer">
+		<property name="ticker" value="OxvZB-19273"/>
+		<property name="title" value="This is the title of the offer"/>
+		<property name="creationMoment" value="2019/11/01 12:00"/>
+		<property name="deadline" value="2019/11/13 23:59"/>
+		<property name="text" value="Here we are describing this offer"/>
+		<property name="money" value="50"/>
+	</bean>
+	
+	<bean id="offer03" class="acme.entities.offers.Offer">
+		<property name="ticker" value="OAbVC-12788"/>
+		<property name="title" value="This is the title of the offer"/>
+		<property name="creationMoment" value="2019/10/31 12:00"/>
+		<property name="deadline" value="2019/11/20 23:59"/>
+		<property name="text" value="Here we are describing this offer"/>
+		<property name="money" value="125"/>
+	</bean>
+	
+	<!-- Company records -->
+	
+	<bean id="companyrecord01" class="acme.entities.records.CompanyRecord">
+		<property name="company" value="Company's name"/>
+		<property name="sector" value="This is the sector"/>
+		<property name="CEO" value="CEO's name"/>
+		<property name="description" value="This is the description of CompanyRecord01"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="phone" value="+34 678234591"/>
+		<property name="email" value="companyrecord01@gmail.com"/>
+		<property name="stars" value="4"/>
+	</bean>
+	
+	<bean id="companyrecord02" class="acme.entities.records.CompanyRecord">
+		<property name="company" value="Company's name"/>
+		<property name="sector" value="This is the sector"/>
+		<property name="CEO" value="CEO's name"/>
+		<property name="description" value="This is the description of CompanyRecord02"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="phone" value="+34 696020304"/>
+		<property name="email" value="companyrecord02@gmail.com"/>
+		<property name="stars" value="2"/>
+	</bean>
+	
+	<bean id="companyrecord03" class="acme.entities.records.CompanyRecord">
+		<property name="company" value="Company's name"/>
+		<property name="sector" value="This is the sector"/>
+		<property name="CEO" value="CEO's name"/>
+		<property name="description" value="This is the description of CompanyRecord03"/>
+		<property name="website" value="http://www.example.com"/>
+		<property name="phone" value="+34 666999666"/>
+		<property name="email" value="companyrecord03@gmail.com"/>
+		<property name="stars" value="5"/>
+	</bean>
+
+	<!-- Investor records -->
+	
+	<bean id="investorrecord01" class="acme.entities.records.InvestorRecord">
+		<property name="investor" value="Investor's name"/>
+		<property name="sector" value="This is the sector"/>
+		<property name="statement" value="Here we are making an statement for InvestorRecord01"/>
+		<property name="stars" value="1"/>
+	</bean>
+	
+	<bean id="investorrecord02" class="acme.entities.records.InvestorRecord">
+		<property name="investor" value="Investor's name"/>
+		<property name="sector" value="This is the sector"/>
+		<property name="statement" value="Here we are making an statement for InvestorRecord02"/>
+		<property name="stars" value="2"/>
+	</bean>
+	
+	<bean id="investorrecord03" class="acme.entities.records.InvestorRecord">
+		<property name="investor" value="Investor's name"/>
+		<property name="sector" value="This is the sector"/>
+		<property name="statement" value="Here we are making an statement for InvestorRecord03"/>
+		<property name="stars" value="4"/>
+	</bean>
+	
+	<!-- Challenges -->
+	
+	<bean id="challenge01" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge01's title"/>
+		<property name="deadline" value="2020/01/01 00:00"/>
+		<property name="description" value="This is the description"/>
+		<property name="goldReward" value="200"/>
+		<property name="silverReward" value="150"/>
+		<property name="bronzeReward" value="100"/>
+	</bean>
+	
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge02's title"/>
+		<property name="deadline" value="2020/02/01 00:00"/>
+		<property name="description" value="This is the description"/>
+		<property name="goldReward" value="300"/>
+		<property name="silverReward" value="200"/>
+		<property name="bronzeReward" value="100"/>
+	</bean>
+	
+	<bean id="challenge03" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge03's title"/>
+		<property name="deadline" value="2019/12/01 00:00"/>
+		<property name="description" value="This is the description"/>
+		<property name="goldReward" value="100"/>
+		<property name="silverReward" value="75"/>
+		<property name="bronzeReward" value="50"/>
+	</bean>
+
 </beans>
