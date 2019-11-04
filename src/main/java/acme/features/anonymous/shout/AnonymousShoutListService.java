@@ -1,15 +1,3 @@
-/*
- * AnonymousUserAccountCreateService.java
- *
- * Copyright (c) 2019 Rafael Corchuelo.
- *
- * In keeping with the traditional purpose of furthering education and research, it is
- * the policy of the copyright owner to permit non-commercial use and redistribution of
- * this software. It has been tested carefully, but it is not guaranteed for any particular
- * purposes. The copyright owner does not offer any warranties or representations, nor do
- * they accept any liabilities with respect to them.
- */
-
 
 package acme.features.anonymous.shout;
 
@@ -32,6 +20,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 	@Autowired
 	AnonymousShoutRepository repository;
 
+
 	@Override
 	public boolean authorise(final Request<Shout> request) {
 		assert request != null;
@@ -44,7 +33,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		assert entity != null;
 		assert model != null;
 		request.unbind(entity, model, "author", "text", "moment");
-  }
+	}
 
 	@Override
 	public Collection<Shout> findMany(final Request<Shout> request) {
