@@ -28,7 +28,7 @@ public class AnonymousInvestorRecordShowService implements AbstractShowService<A
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		request.unbind(entity, model, "title", "moment", "moreInfo", "text");
+		request.unbind(entity, model, "investor", "sector", "statement", "stars");
 
 	}
 

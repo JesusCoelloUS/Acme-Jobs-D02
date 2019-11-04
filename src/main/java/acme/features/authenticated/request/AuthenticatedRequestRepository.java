@@ -15,7 +15,7 @@ public interface AuthenticatedRequestRepository extends AbstractRepository {
 	@Query("select r from Request r where r.id=?1")
 	Request findOneById(int id);
 
-	@Query("select r from Request r where (r.SYSDATE >= r.creationMoment AND r.SYSDATE <= r.deadline) ")
+	@Query("select r from Request r where r.creationMoment < current_date and r.deadline > current_date")
 	Collection<Request> findManyAll();
 
 }
