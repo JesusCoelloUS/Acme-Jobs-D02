@@ -47,6 +47,8 @@ master.menu.anonymous.announcements = Ver anuncios
 
 master.menu.authenticated = Autentificado
 master.menu.authenticated.announcements = Ver anuncios
+master.menu.authenticated.offers = Ofertas
+master.menu.authenticated.challenges = Desafíos
 
 # master.menu.administrator ###################################################
 

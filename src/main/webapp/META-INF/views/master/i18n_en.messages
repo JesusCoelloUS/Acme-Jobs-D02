@@ -47,6 +47,9 @@ master.menu.anonymous.announcements = List announcements
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.announcements = List announcements
+master.menu.authenticated.offers = Offers
+master.menu.authenticated.challenges = Challenges
+
 
 # master.menu.administrator ###################################################
 
