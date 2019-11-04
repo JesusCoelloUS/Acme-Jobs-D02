@@ -38,6 +38,7 @@ master.menu.anonymous.shout.create = Gritar
 
 master.menu.anonymous.bulletin.list = Listar boletines
 master.menu.anonymous.bulletin.create = Nuevo boletín
+master.menu.anonymous.investor-record.list = Registros de inversor
 
 master.menu.anonymous.company-record = Listar informes de compañía
 
@@ -47,6 +48,7 @@ master.menu.anonymous.announcements = Ver anuncios
 
 master.menu.authenticated = Autentificado
 master.menu.authenticated.announcements = Ver anuncios
+master.menu.authenticated.requests = Solicitudes
 master.menu.authenticated.offers = Ofertas
 master.menu.authenticated.challenges = Desafíos
 
