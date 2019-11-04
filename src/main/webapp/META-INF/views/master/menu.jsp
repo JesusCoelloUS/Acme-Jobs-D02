@@ -26,8 +26,12 @@
 			
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.create" action="/anonymous/shout/create"/>
+			
       		<acme:menu-suboption code="master.menu.anonymous.bulletin.list" action="/anonymous/bulletin/list"/>
 	 		<acme:menu-suboption code="master.menu.anonymous.bulletin.create" action="/anonymous/bulletin/create"/>
+	 		
+	 		<acme:menu-suboption code="master.menu.anonymous.company-record" action="/anonymous/company-record/list"/>
+	 		<acme:menu-suboption code="master.menu.anonymous.announcements" action="/anonymous/announcement/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">

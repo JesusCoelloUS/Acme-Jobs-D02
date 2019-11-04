@@ -35,8 +35,13 @@ master.menu.anonymous.favourite-link.serperrui1 = Favourite link of serperrui1
 
 master.menu.anonymous.shout.list = List shouts
 master.menu.anonymous.shout.create = Create shout
+
 master.menu.anonymous.bulletin.list = List bulletins
 master.menu.anonymous.bulletin.create = New bulletin
+
+master.menu.anonymous.company-record	= List company records
+
+master.menu.anonymous.announcements = List announcements
 
 # master.menu.authenticated ###################################################
 
