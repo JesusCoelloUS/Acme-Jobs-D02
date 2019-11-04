@@ -49,6 +49,7 @@ master.menu.anonymous.announcements = List announcements
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.announcements = List announcements
+master.menu.authenticated.company-record	= List company records
 master.menu.authenticated.requests = Requests
 master.menu.authenticated.offers = Offers
 master.menu.authenticated.challenges = Challenges

@@ -36,7 +36,7 @@ public class AuthenticatedAnnouncementListService implements AbstractListService
 	@Override
 	public Collection<Announcement> findMany(final Request<Announcement> request) {
 		assert request != null;
-		Collection<Announcement> res = this.repository.findManyAll();
+		Collection<Announcement> res = this.repository.findMany();
 		return res;
 	}
 
