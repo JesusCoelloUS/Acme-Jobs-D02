@@ -42,6 +42,9 @@ master.menu.anonymous.bulletin.create = New bulletin
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.announcements = List announcements
+master.menu.authenticated.offers = Offers
+master.menu.authenticated.challenges = Challenges
+
 
 # master.menu.administrator ###################################################
 
