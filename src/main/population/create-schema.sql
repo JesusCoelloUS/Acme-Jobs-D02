@@ -40,10 +40,13 @@
     create table `challenge` (
        `id` integer not null,
         `version` integer not null,
+        `bronze_goal` varchar(255),
         `bronze_reward` integer,
         `deadline` datetime(6),
         `description` varchar(255),
+        `gold_goal` varchar(255),
         `gold_reward` integer,
+        `silver_goal` varchar(255),
         `silver_reward` integer,
         `title` varchar(255),
         primary key (`id`)
@@ -87,7 +90,8 @@
         `version` integer not null,
         `creation_moment` datetime(6),
         `deadline` datetime(6),
-        `money` integer,
+        `max_money` integer,
+        `min_money` integer,
         `text` varchar(255),
         `ticker` varchar(255),
         `title` varchar(255),

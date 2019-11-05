@@ -28,39 +28,54 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.favourite-link.jescoevas = Favourite link of Jesús
+
+master.menu.anonymous.links = Links
+master.menu.anonymous.favourite-link.jescoevas = Favourite link of jescoevas
 master.menu.anonymous.favourite-link.frankrogo = Favourite link of frankrogo
 master.menu.anonymous.favourite-link.AleVazEnc = Favourite link of AleVazEnc
 master.menu.anonymous.favourite-link.serperrui1 = Favourite link of serperrui1
 
+master.menu.anonymous.shouts = Shouts
 master.menu.anonymous.shout.list = List shouts
-master.menu.anonymous.shout.create = Create shout
+master.menu.anonymous.shout.create = New shout
 
+master.menu.anonymous.bulletins = Bulletins
 master.menu.anonymous.bulletin.list = List bulletins
 master.menu.anonymous.bulletin.create = New bulletin
-master.menu.anonymous.investor-record.list = Investor records
 
+master.menu.anonymous.records = Records
+master.menu.anonymous.investor-record.list = List investor records
+master.menu.anonymous.company-record.list	= List company records
 
-master.menu.anonymous.company-record	= List company records
-
-master.menu.anonymous.announcements = List announcements
+master.menu.anonymous.announcements = Announcements
+master.menu.anonymous.announcement.list = List announcements
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
-master.menu.authenticated.announcements = List announcements
-master.menu.authenticated.company-record	= List company records
+
+master.menu.authenticated.announcements = Announcements
+master.menu.authenticated.announcement.list = List announcements
+
+master.menu.authenticated.records = Records
+master.menu.authenticated.company-record.list = List company records
+master.menu.authenticated.investor-record.list = List investor records
+
 master.menu.authenticated.requests = Requests
+master.menu.authenticated.request.list = List requests
+
 master.menu.authenticated.offers = Offers
+master.menu.authenticated.offer.list = List offers
+
 master.menu.authenticated.challenges = Challenges
-master.menu.authenticated.investor-record = List of investor records
+master.menu.authenticated.challenge.list = List challenges
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
-master.menu.administrator.announcement = List of announcements
+master.menu.administrator.announcement.list.all = List of announcements (all)
 
 # master.menu.provider ########################################################
 

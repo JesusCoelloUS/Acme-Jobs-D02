@@ -17,4 +17,7 @@ authenticated.challenge.form.label.description = Descripción
 authenticated.challenge.form.label.goldReward = Recompensa de oro
 authenticated.challenge.form.label.silverReward = Recompensa de plata
 authenticated.challenge.form.label.bronzeReward = Recompesa de bronce
+authenticated.challenge.form.label.goldGoal = Objetivo oro
+authenticated.challenge.form.label.silverGoal = Objetivo plata
+authenticated.challenge.form.label.bronzeGoal = Objetivo bronce
 authenticated.challenge.form.button.return = Volver

@@ -115,7 +115,8 @@
 		<property name="creationMoment" value="2019/10/03 12:00"/>
 		<property name="deadline" value="2019/11/13 23:59"/>
 		<property name="text" value="Here we are describing this offer"/>
-		<property name="money" value="150"/>
+		<property name="minMoney" value="150"/>
+		<property name="maxMoney" value="160"/>
 	</bean>
 	
 	<bean id="offer02" class="acme.entities.offers.Offer">
@@ -124,7 +125,8 @@
 		<property name="creationMoment" value="2019/11/01 12:00"/>
 		<property name="deadline" value="2019/11/13 23:59"/>
 		<property name="text" value="Here we are describing this offer"/>
-		<property name="money" value="50"/>
+		<property name="minMoney" value="50"/>
+		<property name="maxMoney" value="60"/>
 	</bean>
 	
 	<bean id="offer03" class="acme.entities.offers.Offer">
@@ -133,7 +135,8 @@
 		<property name="creationMoment" value="2019/10/31 12:00"/>
 		<property name="deadline" value="2019/11/20 23:59"/>
 		<property name="text" value="Here we are describing this offer"/>
-		<property name="money" value="125"/>
+		<property name="minMoney" value="125"/>
+		<property name="maxMoney" value="130"/>
 	</bean>
 	
 	<!-- Company records -->
@@ -203,6 +206,9 @@
 		<property name="goldReward" value="200"/>
 		<property name="silverReward" value="150"/>
 		<property name="bronzeReward" value="100"/>
+		<property name ="goldGoal" value="Score 50 points"/>
+		<property name ="silverGoal" value="Score 40 points"/>
+		<property name ="bronzeGoal" value="Score 30 points"/>
 	</bean>
 	
 	<bean id="challenge02" class="acme.entities.challenges.Challenge">
@@ -212,6 +218,9 @@
 		<property name="goldReward" value="300"/>
 		<property name="silverReward" value="200"/>
 		<property name="bronzeReward" value="100"/>
+		<property name ="goldGoal" value="Score 500 points"/>
+		<property name ="silverGoal" value="Score 400 points"/>
+		<property name ="bronzeGoal" value="Score 300 points"/>
 	</bean>
 	
 	<bean id="challenge03" class="acme.entities.challenges.Challenge">
@@ -221,6 +230,9 @@
 		<property name="goldReward" value="100"/>
 		<property name="silverReward" value="75"/>
 		<property name="bronzeReward" value="50"/>
+		<property name ="goldGoal" value="Score 25 points"/>
+		<property name ="silverGoal" value="Score 15 points"/>
+		<property name ="bronzeGoal" value="Score 5 points"/>
 	</bean>
 
 </beans>

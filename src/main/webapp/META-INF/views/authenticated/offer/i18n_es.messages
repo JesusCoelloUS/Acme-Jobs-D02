@@ -11,11 +11,13 @@
 authenticated.offer.list.label.ticker = Ticker
 authenticated.offer.list.label.title = Título
 authenticated.offer.list.label.creationMoment = Fecha de creación
-authenticated.offer.list.label.money = Precio
+authenticated.offer.list.label.minMoney = Dinero Mínimo
+authenticated.offer.list.label.maxMoney = Dinero Máximo
 authenticated.offer.list.label.deadline = Fecha de Vencimiento
 
 authenticated.offer.form.label.deadline = Fecha de vencimiento
-authenticated.offer.form.label.money = Precio
+authenticated.offer.form.label.minMoney = Dinero Mínimo
+authenticated.offer.form.label.maxMoney = Dinero máximo
 authenticated.offer.form.label.ticker = Ticker
 authenticated.offer.form.label.title = Título
 authenticated.offer.form.label.creationMoment = Fecha de creación

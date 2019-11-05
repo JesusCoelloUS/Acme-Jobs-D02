@@ -17,4 +17,8 @@ authenticated.challenge.form.label.description = Description
 authenticated.challenge.form.label.goldReward = Gold reward
 authenticated.challenge.form.label.silverReward = Silver reward
 authenticated.challenge.form.label.bronzeReward = Bronze reward
+authenticated.challenge.form.label.goldGoal = Gold goal
+authenticated.challenge.form.label.silverGoal = Silver goal
+authenticated.challenge.form.label.bronzeGoal = Bronze goal
+
 authenticated.challenge.form.button.return = Return
