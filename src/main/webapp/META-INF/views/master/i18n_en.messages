@@ -42,12 +42,14 @@ master.menu.anonymous.bulletin.create = New bulletin
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.announcements = List announcements
+master.menu.authenticated.investor-record = List of investor records
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
+master.menu.administrator.announcement = List of announcements
 
 # master.menu.provider ########################################################
 
