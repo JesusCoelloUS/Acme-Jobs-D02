@@ -1,5 +1,5 @@
 
-package acme.features.authenticated.announcement;
+package acme.features.anonymous.announcement;
 
 import java.util.Collection;
 
@@ -10,7 +10,7 @@ import acme.entities.announcements.Announcement;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AuthenticatedAnnouncementRepository extends AbstractRepository {
+public interface AnonymousAnnouncementRepository extends AbstractRepository {
 
 	@Query("select a from Announcement a where a.id=?1")
 	Announcement findOneById(int id);

@@ -35,13 +35,24 @@ master.menu.anonymous.favourite-link.serperrui1 = Favourite link of serperrui1
 
 master.menu.anonymous.shout.list = List shouts
 master.menu.anonymous.shout.create = Create shout
+
 master.menu.anonymous.bulletin.list = List bulletins
 master.menu.anonymous.bulletin.create = New bulletin
+master.menu.anonymous.investor-record.list = Investor records
+
+
+master.menu.anonymous.company-record	= List company records
+
+master.menu.anonymous.announcements = List announcements
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.announcements = List announcements
+master.menu.authenticated.company-record	= List company records
+master.menu.authenticated.requests = Requests
+master.menu.authenticated.offers = Offers
+master.menu.authenticated.challenges = Challenges
 master.menu.authenticated.investor-record = List of investor records
 
 # master.menu.administrator ###################################################

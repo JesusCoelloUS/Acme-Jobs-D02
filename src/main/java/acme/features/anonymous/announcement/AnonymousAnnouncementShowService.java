@@ -1,7 +1,5 @@
 
-package acme.features.authenticated.announcement;
-
-import java.util.Collection;
+package acme.features.anonymous.announcement;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,14 +7,14 @@ import org.springframework.stereotype.Service;
 import acme.entities.announcements.Announcement;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Authenticated;
-import acme.framework.services.AbstractListService;
+import acme.framework.entities.Anonymous;
+import acme.framework.services.AbstractShowService;
 
 @Service
-public class AuthenticatedAnnouncementListService implements AbstractListService<Authenticated, Announcement> {
+public class AnonymousAnnouncementShowService implements AbstractShowService<Anonymous, Announcement> {
 
 	@Autowired
-	AuthenticatedAnnouncementRepository repository;
+	AnonymousAnnouncementRepository repository;
 
 
 	@Override
@@ -30,13 +28,14 @@ public class AuthenticatedAnnouncementListService implements AbstractListService
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		request.unbind(entity, model, "moment", "title");
+		request.unbind(entity, model, "title", "moment", "moreInfo", "text");
 	}
 
 	@Override
-	public Collection<Announcement> findMany(final Request<Announcement> request) {
+	public Announcement findOne(final Request<Announcement> request) {
 		assert request != null;
-		Collection<Announcement> res = this.repository.findMany();
+		int id = request.getModel().getInteger("id");
+		Announcement res = this.repository.findOneById(id);
 		return res;
 	}
 
