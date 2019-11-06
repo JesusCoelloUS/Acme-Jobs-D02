@@ -8,8 +8,4 @@
 		path="title" width="20%" />
 	<acme:list-column code="administrator.announcement.list.label.moment"
 		path="moment" width="20%" />
-	<acme:list-column code="administrator.announcement.list.label.moreInfo"
-		path="moreInfo" width="40%" />
-	<acme:list-column code="administrator.announcement.list.label.text"
-		path="text" width="20%" />
 </acme:list>

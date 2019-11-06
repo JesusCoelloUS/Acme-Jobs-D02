@@ -10,8 +10,6 @@
 
 administrator.announcement.list.label.title = Título
 administrator.announcement.list.label.moment = Momento
-administrator.announcement.list.label.moreInfo = Más información
-administrator.announcement.list.label.text = Texto
 
 administrator.announcement.form.label.title = Titulo
 administrator.announcement.form.label.moment = Momento
