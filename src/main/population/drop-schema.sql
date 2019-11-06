@@ -33,6 +33,8 @@
 
     drop table if exists `company_record`;
 
+    drop table if exists `configuration`;
+
     drop table if exists `consumer`;
 
     drop table if exists `investor_record`;
