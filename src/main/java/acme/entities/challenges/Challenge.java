@@ -39,4 +39,13 @@ public class Challenge extends DomainEntity {
 
 	@Valid
 	private Integer				bronzeReward;
+
+	@NotBlank
+	private String				goldGoal;
+
+	@NotBlank
+	private String				silverGoal;
+
+	@NotBlank
+	private String				bronzeGoal;
 }

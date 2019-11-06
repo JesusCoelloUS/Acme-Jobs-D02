@@ -44,6 +44,9 @@ public class Offer extends DomainEntity {
 	private String				text;
 
 	@Min(0)
-	private Integer				money;
+	private Integer				minMoney;
+
+	@Min(0)
+	private Integer				maxMoney;
 
 }
