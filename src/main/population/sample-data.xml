@@ -17,6 +17,14 @@
 
 	<import resource="conversion-service.xml" />
 
+	<!-- Configuration -->
+	
+	<bean id="configuration" class="acme.entities.configurations.Configuration">
+		<property name="spamWords" value="sex,hard core,viagra,cialis,nigeria,you've won,
+		million dollar,sexo,duro,has ganado,millón de dólares"/>
+		<property name="threshold" value="1.00"/>
+	</bean>
+
 	<!-- Shouts -->
 	
 	<bean id="shout01" class="acme.entities.shouts.Shout">

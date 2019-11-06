@@ -503,4 +503,38 @@ Challenge
 +bronzeGoal:String{NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>742</x>
+      <y>378</y>
+      <w>105</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Configuration
+--
++spamWords:String
++threshold:Double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>742</x>
+      <y>434</y>
+      <w>154</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>By default:
+Spam words: : “sex”, “hard core”,
+“viagra”, “cialis”, “nigeria",
+“you’ve won”, “million dollar”
+and their corresponding
+Spanish translations.
+
+Threshold: 1.00%
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
